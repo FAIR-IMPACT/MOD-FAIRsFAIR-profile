@@ -1,0 +1,8 @@
+- title: Examples of MOD descriptions complying with the FAIRsFAIR profile.
+  content: |-
+    This is the content of the example.
+    
+  snippets:
+    - language: json
+      ref: examples/example.json
+      schema-ref: "#/defs/mod:SemanticArtefact"
