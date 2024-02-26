@@ -1,0 +1,51 @@
+Validation report for ogc.bbr.template.mod-fairsfair-bblock - MOD-FAIRsFAIR-Profile
+Generated 2024-02-26T12:06:17.986172+00:00
+=== General ===
+Test was expected to fail and it did.
+=== End General ===
+
+=== Files ===
+Using no-description-fail.json from test resources
+JSON-LD context is present - uplifting
+Output JSON-LD no-description-fail.jsonld created
+Output Turtle no-description-fail.ttl created
+=== End Files ===
+
+=== JSON Schema ===
+
+** Validation error **
+ValidationError: 'dct:description' is a required property
+
+Failed validating 'required' in schema:
+    {'$schema': 'https://json-schema.org/draft/2020-12/schema',
+     'anyOf': [{'ref': '#/$defs/mod:SemanticArtefact'}],
+     'defs': {'mod:SemanticArtefact': {'properties': {'dct:accessRights': {'type': 'string'},
+                                                      'dct:created': {'type': 'string'},
+                                                      'dct:creator': {'type': 'string'},
+                                                      'dct:description': {'type': 'string'},
+                                                      'dct:identifier': {'type': 'string'},
+                                                      'dct:license': {'type': 'string'},
+                                                      'dct:title': {'type': 'string'}},
+                                       'type': 'object'}},
+     'description': 'Schema for MOD-FAIRsFAIR-Profile building block',
+     'required': ['dct:title',
+                  'dct:license',
+                  'dct:identifier',
+                  'dct:accessRights',
+                  'dct:creator',
+                  'dct:created',
+                  'dct:description'],
+     'x-jsonld-prefixes': {'mod': 'https://w3id.org/mod#',
+                           'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
+                           'rdfs': 'http://www.w3.org/2000/01/rdf-schema#',
+                           'xsd': 'http://www.w3.org/2001/XMLSchema#'}}
+
+On instance:
+    {'dct:accessRights': 'all',
+     'dct:created': 'then',
+     'dct:creator': 'me',
+     'dct:identifier': 'mySA',
+     'dct:license': 'our license',
+     'dct:title': 'my semantic artefact'}
+=== End JSON Schema ===
+

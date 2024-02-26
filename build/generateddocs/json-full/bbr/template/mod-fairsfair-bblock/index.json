@@ -1,0 +1,66 @@
+
+
+{
+  "itemIdentifier": "ogc.bbr.template.mod-fairsfair-bblock",
+  "$schema": "metaschema.yaml",
+  "name": "MOD-FAIRsFAIR-Profile",
+  "abstract": "This Building Block serves as a template to create new ones",
+  "status": "under-development",
+  "dateTimeAddition": "2023-04-05T00:00:00Z",
+  "itemClass": "schema",
+  "register": "ogc-building-block-register",
+  "version": "0.1",
+  "dateOfLastChange": "2024-02-26",
+  "link": "https://github.com/opengeospatial/bblock-template",
+  "sources": [
+    {
+      "title": "Sample source document",
+      "link": "https://example.com/sources/1"
+    }
+  ],
+  "maturity": "mature",
+  "scope": "unstable",
+  "tags": [
+    "templates"
+  ],
+  "shaclRules": {},
+  "ldContext": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/annotated/bbr/template/mod-fairsfair-bblock/context.jsonld",
+  "schema": {
+    "application/yaml": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/annotated/bbr/template/mod-fairsfair-bblock/schema.yaml",
+    "application/json": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/annotated/bbr/template/mod-fairsfair-bblock/schema.json"
+  },
+  "sourceLdContext": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/_sources/mod-fairsfair-bblock/context.jsonld",
+  "sourceSchema": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/_sources/mod-fairsfair-bblock/schema.yaml",
+  "sourceFiles": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/_sources/mod-fairsfair-bblock/",
+  "validationPassed": true,
+  "testOutputs": "https://github.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/blob/master/build/tests/bbr/template/mod-fairsfair-bblock/",
+  "description": "## MOD-FAIRsFAIR-Profile\n\nThis is the representation of the FAIRsFAIR Profile for MOD. This document provides a human-readable description of the Profile.\n",
+  "examples": [
+    {
+      "title": "Examples of MOD descriptions complying with the FAIRsFAIR profile.",
+      "content": "This is the content of the example.",
+      "snippets": [
+        {
+          "language": "json",
+          "ref": "examples/example.json",
+          "schema-ref": "#/defs/mod:SemanticArtefact",
+          "code": "{\n    \"dct:title\": \"my semantic artefact\",\n    \"dct:license\": \"our license\",\n    \"dct:identifier\": \"mySA\",\n    \"dct:accessRights\": \"all\",\n    \"dct:creator\": \"me\",\n    \"dct:created\": \"then\",\n    \"dct:description\": \"my semantic artefact is ....\"\n}",
+          "url": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/tests/bbr/template/mod-fairsfair-bblock/example_1_1.json"
+        },
+        {
+          "language": "jsonld",
+          "code": "{\n  \"dct:title\": \"my semantic artefact\",\n  \"dct:license\": \"our license\",\n  \"dct:identifier\": \"mySA\",\n  \"dct:accessRights\": \"all\",\n  \"dct:creator\": \"me\",\n  \"dct:created\": \"then\",\n  \"dct:description\": \"my semantic artefact is ....\",\n  \"@context\": \"https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/annotated/bbr/template/mod-fairsfair-bblock/context.jsonld\"\n}",
+          "url": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/tests/bbr/template/mod-fairsfair-bblock/example_1_1.jsonld"
+        },
+        {
+          "language": "ttl",
+          "code": "@prefix ns1: <dct:> .\n\n[] ns1:accessRights \"all\" ;\n    ns1:created \"then\" ;\n    ns1:creator \"me\" ;\n    ns1:description \"my semantic artefact is ....\" ;\n    ns1:identifier \"mySA\" ;\n    ns1:license \"our license\" ;\n    ns1:title \"my semantic artefact\" .\n\n",
+          "url": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/tests/bbr/template/mod-fairsfair-bblock/example_1_1.ttl"
+        }
+      ]
+    }
+  ],
+  "annotatedSchema": "$schema: https://json-schema.org/draft/2020-12/schema\ndescription: Schema for MOD-FAIRsFAIR-Profile building block\ndefs:\n  mod:SemanticArtefact:\n    type: object\n    properties:\n      dct:title:\n        type: string\n      dct:license:\n        type: string\n      dct:identifier:\n        type: string\n      dct:accessRights:\n        type: string\n      dct:creator:\n        type: string\n      dct:created:\n        type: string\n      dct:description:\n        type: string\nrequired:\n- dct:title\n- dct:license\n- dct:identifier\n- dct:accessRights\n- dct:creator\n- dct:created\n- dct:description\nanyOf:\n- ref: '#/$defs/mod:SemanticArtefact'\nx-jsonld-prefixes:\n  mod: https://w3id.org/mod#\n  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#\n  rdfs: http://www.w3.org/2000/01/rdf-schema#\n  xsd: http://www.w3.org/2001/XMLSchema#\n",
+  "gitRepository": "https://github.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile",
+  "gitPath": "_sources/mod-fairsfair-bblock"
+}

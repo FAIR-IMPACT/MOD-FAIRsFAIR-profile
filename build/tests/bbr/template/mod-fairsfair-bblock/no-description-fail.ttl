@@ -1,0 +1,9 @@
+@prefix ns1: <dct:> .
+
+[] ns1:accessRights "all" ;
+    ns1:created "then" ;
+    ns1:creator "me" ;
+    ns1:identifier "mySA" ;
+    ns1:license "our license" ;
+    ns1:title "my semantic artefact" .
+

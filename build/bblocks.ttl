@@ -7,29 +7,29 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/ogc.bbr.template.my-building-block> a skos:Concept,
+<https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/ogc.bbr.template.mod-fairsfair-bblock> a skos:Concept,
         dcat:Dataset,
         bblocks:Schema ;
-    rdfs:label "My Building Block" ;
+    rdfs:label "MOD-FAIRsFAIR-Profile" ;
     dct:abstract "This Building Block serves as a template to create new ones" ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/bblock/ogc.bbr.template.my-building-block" ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/generateddocs/json-full/bbr/template/my-building-block/index.json" ],
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/generateddocs/slate-build/bbr/template/mod-fairsfair-bblock/" ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/generateddocs/slate-build/bbr/template/my-building-block/" ],
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/bblock/ogc.bbr.template.mod-fairsfair-bblock" ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/generateddocs/json-full/bbr/template/mod-fairsfair-bblock/index.json" ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/generateddocs/markdown/bbr/template/my-building-block/index.md" ] ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/generateddocs/markdown/bbr/template/mod-fairsfair-bblock/index.md" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2024-02-07"^^xsd:date ;
+    dct:modified "2024-02-26"^^xsd:date ;
     dct:source <https://example.com/sources/1> ;
     skos:inScheme <https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/> ;
     dcat:keyword "templates" ;
-    bblocks:hasJsonLdContext <https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/annotated/bbr/template/my-building-block/context.jsonld> ;
-    bblocks:hasSchema <https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/annotated/bbr/template/my-building-block/schema.json>,
-        <https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/annotated/bbr/template/my-building-block/schema.yaml> ;
-    bblocks:hasSourceJsonLdContext <https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/_sources/my-building-block/context.jsonld> ;
+    bblocks:hasJsonLdContext <https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/annotated/bbr/template/mod-fairsfair-bblock/context.jsonld> ;
+    bblocks:hasSchema <https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/annotated/bbr/template/mod-fairsfair-bblock/schema.json>,
+        <https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/annotated/bbr/template/mod-fairsfair-bblock/schema.yaml> ;
+    bblocks:hasSourceJsonLdContext <https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/_sources/mod-fairsfair-bblock/context.jsonld> ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> .
 
@@ -37,30 +37,30 @@
 
 <https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/> a skos:ConceptScheme,
         dcat:Catalog ;
-    rdfs:label "My OGC Building Blocks repository" ;
+    rdfs:label "MOD FAIRsFAIR Profile Building Blocks repository" ;
     dct:abstract """This is an example text for the abstract. It should be short and to the point.
 A "Tell me more" link will appear if there is an additional description with a longer explanation.
 """ ;
     dct:description """The description can be longer. Both **the abstract** *and the description* support Markdown,
 including [links](https://google.es).
 """ ;
-    skos:prefLabel "My OGC Building Blocks repository" ;
+    skos:prefLabel "MOD FAIRsFAIR Profile Building Blocks repository" ;
     bblocks:hasValidationReport <https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/tests/report.html> ;
     bblocks:imports <https://opengeospatial.github.io/bblocks/register.json> .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-02-07T15:02:44.197675"^^xsd:dateTime ;
-    prov:startedAtTime "2024-02-07T15:02:44.131645"^^xsd:dateTime ;
+    prov:endedAtTime "2024-02-26T12:06:18.117159"^^xsd:dateTime ;
+    prov:startedAtTime "2024-02-26T12:06:18.035132"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
-            dct:format "application/yaml" ;
-            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ],
-        [ a prov:Entity ;
             dct:format "application/json" ;
-            dct:hasVersion "git:9a168b7d8f029c841e30c57b2e57461c9f7871b7" ;
-            rdfs:seeAlso <https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/register.json> ] ;
+            dct:hasVersion "git:e16904581f4e00efbc529dafac621386839bdd15" ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/register.json> ],
+        [ a prov:Entity ;
+            dct:format "application/yaml" ;
+            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ] ;
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
-            dct:hasVersion "0.3.35" ;
+            dct:hasVersion "0.3.37" ;
             rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] .
 

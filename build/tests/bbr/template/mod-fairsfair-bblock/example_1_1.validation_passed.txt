@@ -1,0 +1,14 @@
+Validation report for ogc.bbr.template.mod-fairsfair-bblock - MOD-FAIRsFAIR-Profile
+Generated 2024-02-26T12:06:18.021559+00:00
+=== Files ===
+Using example_1_1.json from examples
+JSON-LD context is present - uplifting
+Output JSON-LD example_1_1.jsonld created
+Output Turtle example_1_1.ttl created
+=== End Files ===
+
+=== JSON Schema ===
+Using the following JSON Schema: #/defs/mod:SemanticArtefact
+Validation passed
+=== End JSON Schema ===
+

@@ -1,0 +1,346 @@
+{
+  "title": "Validation report for ogc.bbr.template.mod-fairsfair-bblock - MOD-FAIRsFAIR-Profile",
+  "bblockName": "MOD-FAIRsFAIR-Profile",
+  "bblockId": "ogc.bbr.template.mod-fairsfair-bblock",
+  "generated": "2024-02-26T12:06:18.021617+00:00",
+  "result": true,
+  "items": [
+    {
+      "source": {
+        "type": "TEST_RESOURCE",
+        "requireFail": true,
+        "filename": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/_sources/mod-fairsfair-bblock/tests/no-description-fail.json",
+        "language": "json"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "GENERAL",
+          "title": "General",
+          "entries": [
+            {
+              "op": "require-fail",
+              "isError": false,
+              "message": "Test was expected to fail and it did."
+            }
+          ]
+        },
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using no-description-fail.json from test resources"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "no-description-fail.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD no-description-fail.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "no-description-fail.ttl",
+              "size": 6,
+              "isError": false,
+              "message": "Output Turtle no-description-fail.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "op": "validation",
+              "result": false,
+              "exception": "ValidationError",
+              "errorMessage": "'dct:description' is a required property",
+              "isError": true,
+              "message": "ValidationError: 'dct:description' is a required property\n\nFailed validating 'required' in schema:\n    {'$schema': 'https://json-schema.org/draft/2020-12/schema',\n     'anyOf': [{'ref': '#/$defs/mod:SemanticArtefact'}],\n     'defs': {'mod:SemanticArtefact': {'properties': {'dct:accessRights': {'type': 'string'},\n                                                      'dct:created': {'type': 'string'},\n                                                      'dct:creator': {'type': 'string'},\n                                                      'dct:description': {'type': 'string'},\n                                                      'dct:identifier': {'type': 'string'},\n                                                      'dct:license': {'type': 'string'},\n                                                      'dct:title': {'type': 'string'}},\n                                       'type': 'object'}},\n     'description': 'Schema for MOD-FAIRsFAIR-Profile building block',\n     'required': ['dct:title',\n                  'dct:license',\n                  'dct:identifier',\n                  'dct:accessRights',\n                  'dct:creator',\n                  'dct:created',\n                  'dct:description'],\n     'x-jsonld-prefixes': {'mod': 'https://w3id.org/mod#',\n                           'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',\n                           'rdfs': 'http://www.w3.org/2000/01/rdf-schema#',\n                           'xsd': 'http://www.w3.org/2001/XMLSchema#'}}\n\nOn instance:\n    {'dct:accessRights': 'all',\n     'dct:created': 'then',\n     'dct:creator': 'me',\n     'dct:identifier': 'mySA',\n     'dct:license': 'our license',\n     'dct:title': 'my semantic artefact'}"
+            }
+          ]
+        },
+        {
+          "name": "JSON_LD",
+          "title": "JSON-LD",
+          "entries": []
+        },
+        {
+          "name": "TURTLE",
+          "title": "Turtle",
+          "entries": []
+        },
+        {
+          "name": "SHACL",
+          "title": "SHACL",
+          "entries": []
+        },
+        {
+          "name": "UNKNOWN",
+          "title": "Unknown errors",
+          "entries": []
+        }
+      ]
+    },
+    {
+      "source": {
+        "type": "TEST_RESOURCE",
+        "requireFail": true,
+        "filename": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/_sources/mod-fairsfair-bblock/tests/no-title-fail.json",
+        "language": "json"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "GENERAL",
+          "title": "General",
+          "entries": [
+            {
+              "op": "require-fail",
+              "isError": false,
+              "message": "Test was expected to fail and it did."
+            }
+          ]
+        },
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using no-title-fail.json from test resources"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "no-title-fail.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD no-title-fail.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "no-title-fail.ttl",
+              "size": 6,
+              "isError": false,
+              "message": "Output Turtle no-title-fail.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "op": "validation",
+              "result": false,
+              "exception": "ValidationError",
+              "errorMessage": "'dct:title' is a required property",
+              "isError": true,
+              "message": "ValidationError: 'dct:title' is a required property\n\nFailed validating 'required' in schema:\n    {'$schema': 'https://json-schema.org/draft/2020-12/schema',\n     'anyOf': [{'ref': '#/$defs/mod:SemanticArtefact'}],\n     'defs': {'mod:SemanticArtefact': {'properties': {'dct:accessRights': {'type': 'string'},\n                                                      'dct:created': {'type': 'string'},\n                                                      'dct:creator': {'type': 'string'},\n                                                      'dct:description': {'type': 'string'},\n                                                      'dct:identifier': {'type': 'string'},\n                                                      'dct:license': {'type': 'string'},\n                                                      'dct:title': {'type': 'string'}},\n                                       'type': 'object'}},\n     'description': 'Schema for MOD-FAIRsFAIR-Profile building block',\n     'required': ['dct:title',\n                  'dct:license',\n                  'dct:identifier',\n                  'dct:accessRights',\n                  'dct:creator',\n                  'dct:created',\n                  'dct:description'],\n     'x-jsonld-prefixes': {'mod': 'https://w3id.org/mod#',\n                           'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',\n                           'rdfs': 'http://www.w3.org/2000/01/rdf-schema#',\n                           'xsd': 'http://www.w3.org/2001/XMLSchema#'}}\n\nOn instance:\n    {'dct:accessRights': 'all',\n     'dct:created': 'then',\n     'dct:creator': 'me',\n     'dct:description': 'my semantic artefact is ....',\n     'dct:identifier': 'mySA',\n     'dct:license': 'our license'}"
+            }
+          ]
+        },
+        {
+          "name": "JSON_LD",
+          "title": "JSON-LD",
+          "entries": []
+        },
+        {
+          "name": "TURTLE",
+          "title": "Turtle",
+          "entries": []
+        },
+        {
+          "name": "SHACL",
+          "title": "SHACL",
+          "entries": []
+        },
+        {
+          "name": "UNKNOWN",
+          "title": "Unknown errors",
+          "entries": []
+        }
+      ]
+    },
+    {
+      "source": {
+        "type": "TEST_RESOURCE",
+        "requireFail": false,
+        "filename": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/_sources/mod-fairsfair-bblock/tests/pass.json",
+        "language": "json"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "GENERAL",
+          "title": "General",
+          "entries": []
+        },
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using pass.json from test resources"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "pass.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD pass.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "pass.ttl",
+              "size": 7,
+              "isError": false,
+              "message": "Output Turtle pass.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "op": "validation",
+              "result": true,
+              "isError": false,
+              "message": "Validation passed"
+            }
+          ]
+        },
+        {
+          "name": "JSON_LD",
+          "title": "JSON-LD",
+          "entries": []
+        },
+        {
+          "name": "TURTLE",
+          "title": "Turtle",
+          "entries": []
+        },
+        {
+          "name": "SHACL",
+          "title": "SHACL",
+          "entries": []
+        },
+        {
+          "name": "UNKNOWN",
+          "title": "Unknown errors",
+          "entries": []
+        }
+      ]
+    },
+    {
+      "source": {
+        "type": "EXAMPLE",
+        "requireFail": false,
+        "filename": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/tests/bbr/template/mod-fairsfair-bblock/example_1_1.json",
+        "exampleIndex": 1,
+        "snippetIndex": 1,
+        "language": "json"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "GENERAL",
+          "title": "General",
+          "entries": []
+        },
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using example_1_1.json from examples"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "example_1_1.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD example_1_1.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "example_1_1.ttl",
+              "size": 7,
+              "isError": false,
+              "message": "Output Turtle example_1_1.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "filename": "#/defs/mod:SemanticArtefact",
+              "isError": false,
+              "message": "Using the following JSON Schema: #/defs/mod:SemanticArtefact"
+            },
+            {
+              "op": "validation",
+              "result": true,
+              "isError": false,
+              "message": "Validation passed"
+            }
+          ]
+        },
+        {
+          "name": "JSON_LD",
+          "title": "JSON-LD",
+          "entries": []
+        },
+        {
+          "name": "TURTLE",
+          "title": "Turtle",
+          "entries": []
+        },
+        {
+          "name": "SHACL",
+          "title": "SHACL",
+          "entries": []
+        },
+        {
+          "name": "UNKNOWN",
+          "title": "Unknown errors",
+          "entries": []
+        }
+      ]
+    }
+  ],
+  "globalErrors": {},
+  "counts": {
+    "total": 4,
+    "passed": 4,
+    "failed": 0
+  }
+}

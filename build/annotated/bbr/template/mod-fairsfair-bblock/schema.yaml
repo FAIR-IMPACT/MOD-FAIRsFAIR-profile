@@ -1,15 +1,35 @@
 $schema: https://json-schema.org/draft/2020-12/schema
-description: Schema for my building block
-type: object
-properties:
-  a:
-    type: string
-    format: uri
-    x-jsonld-id: https://example.org/my-bb-model/a
-    x-jsonld-type: '@id'
-  b:
-    type: number
-    x-jsonld-id: https://example.org/my-bb-model/b
+description: Schema for MOD-FAIRsFAIR-Profile building block
+defs:
+  mod:SemanticArtefact:
+    type: object
+    properties:
+      dct:title:
+        type: string
+      dct:license:
+        type: string
+      dct:identifier:
+        type: string
+      dct:accessRights:
+        type: string
+      dct:creator:
+        type: string
+      dct:created:
+        type: string
+      dct:description:
+        type: string
 required:
-- a
-- b
+- dct:title
+- dct:license
+- dct:identifier
+- dct:accessRights
+- dct:creator
+- dct:created
+- dct:description
+anyOf:
+- ref: '#/$defs/mod:SemanticArtefact'
+x-jsonld-prefixes:
+  mod: https://w3id.org/mod#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#
