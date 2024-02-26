@@ -1,0 +1,32 @@
+"$schema": https://json-schema.org/draft/2020-12/schema
+description: 'Schema for MOD-FAIRsFAIR-Profile building block'
+defs:
+     "mod:SemanticArtefact":
+        type: object
+        properties:
+            dct:title:
+                type: string
+            dct:license:
+                type: string
+            dct:identifier:
+                type: string
+            dct:accessRights:
+                type: string
+            dct:creator:
+                type: string
+            dct:created:
+                type: string
+            dct:description:
+                type: string
+
+required: 
+    - dct:title
+    - dct:license
+    - dct:identifier
+    - dct:accessRights
+    - dct:creator
+    - dct:created
+    - dct:description
+
+anyOf:
+    - ref: "#/$defs/mod:SemanticArtefact"
