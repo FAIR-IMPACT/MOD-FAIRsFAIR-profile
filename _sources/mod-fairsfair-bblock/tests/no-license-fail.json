@@ -1,0 +1,8 @@
+{
+    "dct:title": "my semantic artefact",
+    "dct:identifier": "mySA",
+    "dct:accessRights": "all",
+    "dct:creator": "me",
+    "dct:created": "then",
+    "dct:description": "my semantic artefact is ...."
+}

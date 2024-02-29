@@ -4,19 +4,61 @@ defs:
      "mod:SemanticArtefact":
         type: object
         properties:
-            dct:title:
+            dcat:keyword:
                 type: string
-            dct:license:
+            dcat:landingPage:
                 type: string
-            dct:identifier:
-                type: string
+                format: URI
             dct:accessRights:
                 type: string
-            dct:creator:
+            dct:accrualMethod:
+                type: string
+            dct:accrualPeriodicity:
+                type: string
+            dct:contributor:
                 type: string
             dct:created:
                 type: string
+            dct:creator:
+                type: string
             dct:description:
+                type: string
+            dct:identifier:
+                type: string
+            dct:language:
+                type: string
+            dct:license:
+                type: string
+            dct:modified:
+                type: string
+            dct:publisher:
+                type: string
+            dct:relation:
+                type: string
+            dct:subject:
+                type: string
+            dct:title:
+                type: string
+            dct:type:
+                type: string
+            mod:acronym:
+                type: string
+            mod:competencyQuestion:
+                type: string
+            mod:hasFormalityLevel:
+                type: string
+            mod:status:
+                type: string
+            mod:URI:
+                type: string
+                format: URI
+            mod:usedEngineeringMethodology:
+                type: string
+            owl:versionIRI:
+                type: string
+            prov:wasGeneratedBy:
+                type: string
+            schema:includedInDataCatalog:
                 type: string
 
 required: 
