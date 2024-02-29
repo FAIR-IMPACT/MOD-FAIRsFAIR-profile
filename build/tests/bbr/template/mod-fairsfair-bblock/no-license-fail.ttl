@@ -3,7 +3,7 @@
 [] dct:accessRights "all" ;
     dct:created "then" ;
     dct:creator "me" ;
+    dct:description "my semantic artefact is ...." ;
     dct:identifier "mySA" ;
-    dct:license "our license" ;
     dct:title "my semantic artefact" .
 

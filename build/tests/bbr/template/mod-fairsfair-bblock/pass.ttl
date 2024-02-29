@@ -1,10 +1,10 @@
-@prefix ns1: <dct:> .
+@prefix dct: <http://purl.org/dc/terms/> .
 
-[] ns1:accessRights "all" ;
-    ns1:created "then" ;
-    ns1:creator "me" ;
-    ns1:description "my semantic artefact is ...." ;
-    ns1:identifier "mySA" ;
-    ns1:license "our license" ;
-    ns1:title "my semantic artefact" .
+[] dct:accessRights "all" ;
+    dct:created "then" ;
+    dct:creator "me" ;
+    dct:description "my semantic artefact is ...." ;
+    dct:identifier "mySA" ;
+    dct:license "our license" ;
+    dct:title "my semantic artefact" .
 

@@ -2,19 +2,19 @@
   "name": "MOD FAIRsFAIR Profile Building Blocks repository",
   "abstract": "This is an example text for the abstract. It should be short and to the point.\nA \"Tell me more\" link will appear if there is an additional description with a longer explanation.\n",
   "description": "The description can be longer. Both **the abstract** *and the description* support Markdown,\nincluding [links](https://google.es).\n",
-  "modified": "2024-02-26T12:06:17.647414",
+  "modified": "2024-02-29T09:21:05.900774",
   "tooling": {
     "bblocks-postprocess": {
-      "commitId": "\"511c71377d2cb8187d14b5ba55aea1eb84c03d40",
-      "shortCommitId": "\"511c71",
-      "date": "2024-02-19T19:40:19+00:00\""
+      "commitId": "\"3ab474f97c60e5422b1204350317b546bf781d3d",
+      "shortCommitId": "\"3ab474",
+      "date": "2024-02-28T09:41:23+00:00\""
     }
   },
   "gitRepository": "https://github.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile",
   "gitHubRepository": "https://github.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/blob/master/",
-  "baseURL": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/",
-  "viewerURL": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/",
-  "validationReport": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/tests/report.html",
+  "baseURL": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/",
+  "viewerURL": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/",
+  "validationReport": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/tests/report.html",
   "imports": [
     "https://opengeospatial.github.io/bblocks/register.json"
   ],
@@ -23,13 +23,13 @@
       "itemIdentifier": "ogc.bbr.template.mod-fairsfair-bblock",
       "$schema": "metaschema.yaml",
       "name": "MOD-FAIRsFAIR-Profile",
-      "abstract": "This Building Block serves as a template to create new ones",
+      "abstract": "This Building Block is the FAIRsFAIR Profile for the MOD ontology",
       "status": "under-development",
       "dateTimeAddition": "2023-04-05T00:00:00Z",
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-02-26",
+      "dateOfLastChange": "2024-02-29",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -43,32 +43,32 @@
         "templates"
       ],
       "shaclRules": {},
-      "ldContext": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/annotated/bbr/template/mod-fairsfair-bblock/context.jsonld",
+      "ldContext": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-bblock/context.jsonld",
       "schema": {
-        "application/yaml": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/annotated/bbr/template/mod-fairsfair-bblock/schema.yaml",
-        "application/json": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/annotated/bbr/template/mod-fairsfair-bblock/schema.json"
+        "application/yaml": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-bblock/schema.yaml",
+        "application/json": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-bblock/schema.json"
       },
-      "sourceLdContext": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/_sources/mod-fairsfair-bblock/context.jsonld",
-      "sourceSchema": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/_sources/mod-fairsfair-bblock/schema.yaml",
-      "sourceFiles": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/_sources/mod-fairsfair-bblock/",
+      "sourceLdContext": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-bblock/context.jsonld",
+      "sourceSchema": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-bblock/schema.yaml",
+      "sourceFiles": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-bblock/",
       "validationPassed": true,
       "testOutputs": "https://github.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/blob/master/build/tests/bbr/template/mod-fairsfair-bblock/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/generateddocs/markdown/bbr/template/mod-fairsfair-bblock/index.md"
+          "url": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/markdown/bbr/template/mod-fairsfair-bblock/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/generateddocs/json-full/bbr/template/mod-fairsfair-bblock/index.json"
+          "url": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/json-full/bbr/template/mod-fairsfair-bblock/index.json"
         },
         "slate": {
           "mediatype": "text/html",
-          "url": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/generateddocs/slate-build/bbr/template/mod-fairsfair-bblock/"
+          "url": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/slate-build/bbr/template/mod-fairsfair-bblock/"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/bblock/ogc.bbr.template.mod-fairsfair-bblock"
+          "url": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/bblock/ogc.bbr.template.mod-fairsfair-bblock"
         }
       }
     }

@@ -6,25 +6,87 @@
         "mod:SemanticArtefact": {
           "type": "object",
           "properties": {
-            "dct:title": {
+            "dcat:keyword": {
               "type": "string"
             },
-            "dct:license": {
-              "type": "string"
-            },
-            "dct:identifier": {
-              "type": "string"
+            "dcat:landingPage": {
+              "type": "string",
+              "format": "URI"
             },
             "dct:accessRights": {
               "type": "string"
             },
-            "dct:creator": {
+            "dct:accrualMethod": {
+              "type": "string"
+            },
+            "dct:accrualPeriodicity": {
+              "type": "string"
+            },
+            "dct:contributor": {
               "type": "string"
             },
             "dct:created": {
               "type": "string"
             },
+            "dct:creator": {
+              "type": "string"
+            },
             "dct:description": {
+              "type": "string"
+            },
+            "dct:identifier": {
+              "type": "string"
+            },
+            "dct:language": {
+              "type": "string"
+            },
+            "dct:license": {
+              "type": "string"
+            },
+            "dct:modified": {
+              "type": "string"
+            },
+            "dct:publisher": {
+              "type": "string"
+            },
+            "dct:relation": {
+              "type": "string"
+            },
+            "dct:subject": {
+              "type": "string"
+            },
+            "dct:title": {
+              "type": "string"
+            },
+            "dct:type": {
+              "type": "string"
+            },
+            "mod:acronym": {
+              "type": "string"
+            },
+            "mod:competencyQuestion": {
+              "type": "string"
+            },
+            "mod:hasFormalityLevel": {
+              "type": "string"
+            },
+            "mod:status": {
+              "type": "string"
+            },
+            "mod:URI": {
+              "type": "string",
+              "format": "URI"
+            },
+            "mod:usedEngineeringMethodology": {
+              "type": "string"
+            },
+            "owl:versionIRI": {
+              "type": "string"
+            },
+            "prov:wasGeneratedBy": {
+              "type": "string"
+            },
+            "schema:includedInDataCatalog": {
               "type": "string"
             }
           }
@@ -45,18 +107,23 @@
         }
       ],
       "x-jsonld-prefixes": {
+        "dcat": "http://www.w3.org/ns/dca#",
+        "dct": "http://purl.org/dc/terms/",
         "mod": "https://w3id.org/mod#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "prov": "http://www.w3.org/ns/prov#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "https://schema.org/",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
       },
       "x-schema-version": "https://json-schema.org/draft/2020-12/schema",
-      "x-schema-source": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/annotated/bbr/template/mod-fairsfair-bblock/schema-oas3.0.json"
+      "x-schema-source": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-bblock/schema-oas3.0.json"
     }
   },
   "allOf": [
     {
-      "$ref": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/annotated/bbr/template/mod-fairsfair-bblock/schema-oas3.0.json#/x-defs/ogc.bbr.template.mod-fairsfair-bblock"
+      "$ref": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-bblock/schema-oas3.0.json#/x-defs/ogc.bbr.template.mod-fairsfair-bblock"
     }
   ]
 }

@@ -5,5 +5,5 @@
   "dct:creator": "me",
   "dct:created": "then",
   "dct:description": "my semantic artefact is ....",
-  "@context": "https://raw.githubusercontent.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/master/build/annotated/bbr/template/mod-fairsfair-bblock/context.jsonld"
+  "@context": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-bblock/context.jsonld"
 }

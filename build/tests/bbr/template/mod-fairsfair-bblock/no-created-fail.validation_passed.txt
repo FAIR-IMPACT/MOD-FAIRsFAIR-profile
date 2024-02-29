@@ -1,20 +1,20 @@
 Validation report for ogc.bbr.template.mod-fairsfair-bblock - MOD-FAIRsFAIR-Profile
-Generated 2024-02-29T09:21:06.422977+00:00
+Generated 2024-02-29T09:21:06.416873+00:00
 === General ===
 Test was expected to fail and it did.
 === End General ===
 
 === Files ===
-Using no-description-fail.json from test resources
+Using no-created-fail.json from test resources
 JSON-LD context is present - uplifting
-Output JSON-LD no-description-fail.jsonld created
-Output Turtle no-description-fail.ttl created
+Output JSON-LD no-created-fail.jsonld created
+Output Turtle no-created-fail.ttl created
 === End Files ===
 
 === JSON Schema ===
 
 ** Validation error **
-ValidationError: 'dct:description' is a required property
+ValidationError: 'dct:created' is a required property
 
 Failed validating 'required' in schema:
     {'$schema': 'https://json-schema.org/draft/2020-12/schema',
@@ -69,8 +69,8 @@ Failed validating 'required' in schema:
 
 On instance:
     {'dct:accessRights': 'all',
-     'dct:created': 'then',
      'dct:creator': 'me',
+     'dct:description': 'my semantic artefact is ....',
      'dct:identifier': 'mySA',
      'dct:license': 'our license',
      'dct:title': 'my semantic artefact'}
