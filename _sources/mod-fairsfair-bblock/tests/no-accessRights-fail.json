@@ -1,0 +1,8 @@
+{
+    "dct:title": "my semantic artefact",
+    "dct:license": "our license",
+    "dct:identifier": "mySA",
+    "dct:creator": "me",
+    "dct:created": "then",
+    "dct:description": "my semantic artefact is ...."
+}
