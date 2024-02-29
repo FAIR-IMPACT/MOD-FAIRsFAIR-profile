@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.template.mod-fairsfair-bblock - MOD-FAIRsFAIR-Profile
-Generated 2024-02-29T09:21:06.486837+00:00
+Generated 2024-02-29T09:57:38.160284+00:00
 === Files ===
 Using example_1_2.json from examples
 JSON-LD context is present - uplifting

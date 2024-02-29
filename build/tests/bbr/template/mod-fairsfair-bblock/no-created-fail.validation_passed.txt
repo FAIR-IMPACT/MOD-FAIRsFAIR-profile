@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.template.mod-fairsfair-bblock - MOD-FAIRsFAIR-Profile
-Generated 2024-02-29T09:21:06.416873+00:00
+Generated 2024-02-29T09:57:38.088900+00:00
 === General ===
 Test was expected to fail and it did.
 === End General ===

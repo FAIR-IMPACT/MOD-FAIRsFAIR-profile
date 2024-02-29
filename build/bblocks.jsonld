@@ -106,7 +106,7 @@
   "name": "Building Blocks - MOD FAIRsFAIR Profile Building Blocks repository",
   "abstract": "This is an example text for the abstract. It should be short and to the point.\nA \"Tell me more\" link will appear if there is an additional description with a longer explanation.\n",
   "description": "The description can be longer. Both **the abstract** *and the description* support Markdown,\nincluding [links](https://google.es).\n",
-  "modified": "2024-02-29T09:21:05.900774",
+  "modified": "2024-02-29T09:57:37.729548",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"3ab474f97c60e5422b1204350317b546bf781d3d",

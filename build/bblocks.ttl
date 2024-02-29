@@ -49,14 +49,14 @@ including [links](https://google.es).
 <https://example.com/sources/1> rdfs:label "Sample source document" .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-02-29T09:21:06.558050"^^xsd:dateTime ;
-    prov:startedAtTime "2024-02-29T09:21:06.501401"^^xsd:dateTime ;
+    prov:endedAtTime "2024-02-29T09:57:38.232730"^^xsd:dateTime ;
+    prov:startedAtTime "2024-02-29T09:57:38.175085"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
             dct:format "application/yaml" ;
             rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ],
         [ a prov:Entity ;
             dct:format "application/json" ;
-            dct:hasVersion "git:6a55c2e42990da51506b1a31137653641295c79b" ;
+            dct:hasVersion "git:1aa3d4eef82826b63dc19dd5c9be8fd80cfe132e" ;
             rdfs:seeAlso <https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/register.json> ] ;
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
