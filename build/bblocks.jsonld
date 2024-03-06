@@ -106,7 +106,7 @@
   "name": "Building Blocks - MOD FAIRsFAIR Profile Building Blocks repository",
   "abstract": "This is an example text for the abstract. It should be short and to the point.\nA \"Tell me more\" link will appear if there is an additional description with a longer explanation.\n",
   "description": "The description can be longer. Both **the abstract** *and the description* support Markdown,\nincluding [links](https://google.es).\n",
-  "modified": "2024-02-29T09:57:37.729548",
+  "modified": "2024-03-06T17:07:03.379880",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"3ab474f97c60e5422b1204350317b546bf781d3d",
@@ -129,21 +129,21 @@
   "skos:prefLabel": "Building Blocks - MOD FAIRsFAIR Profile Building Blocks repository",
   "hasConcepts": [
     {
-      "itemIdentifier": "ogc.bbr.template.mod-fairsfair-bblock",
+      "itemIdentifier": "ogc.bbr.template.mod-fairsfair-semanticartefact",
       "$schema": "metaschema.yaml",
-      "name": "MOD-FAIRsFAIR-Profile",
-      "abstract": "This Building Block is the FAIRsFAIR Profile for the MOD ontology",
+      "name": "MOD FAIRsFAIR SemanticArtefact Profile",
+      "abstract": "This Building Block is the FAIRsFAIR Profile of the SemanticArtefact from the MOD ontology",
       "status": "under-development",
       "dateTimeAddition": "2023-04-05T00:00:00Z",
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-02-29",
-      "link": "https://github.com/opengeospatial/bblock-template",
+      "dateOfLastChange": "2024-03-06",
+      "link": "https://github.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/",
       "sources": [
         {
-          "title": "Sample source document",
-          "link": "https://example.com/sources/1"
+          "title": "MOD Ontology",
+          "link": "https://github.com/fair-IMPACT/mod"
         }
       ],
       "maturity": "mature",
@@ -152,32 +152,90 @@
         "templates"
       ],
       "shaclRules": {},
-      "ldContext": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-bblock/context.jsonld",
+      "ldContext": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-semanticartefact/context.jsonld",
       "schema": {
-        "application/yaml": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-bblock/schema.yaml",
-        "application/json": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-bblock/schema.json"
+        "application/yaml": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-semanticartefact/schema.yaml",
+        "application/json": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-semanticartefact/schema.json"
       },
-      "sourceLdContext": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-bblock/context.jsonld",
-      "sourceSchema": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-bblock/schema.yaml",
-      "sourceFiles": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-bblock/",
+      "sourceLdContext": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-semanticartefact/context.jsonld",
+      "sourceSchema": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-semanticartefact/schema.yaml",
+      "sourceFiles": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-semanticartefact/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/blob/master/build/tests/bbr/template/mod-fairsfair-bblock/",
+      "testOutputs": "https://github.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/blob/master/build/tests/bbr/template/mod-fairsfair-semanticartefact/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/markdown/bbr/template/mod-fairsfair-bblock/index.md"
+          "url": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/markdown/bbr/template/mod-fairsfair-semanticartefact/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/json-full/bbr/template/mod-fairsfair-bblock/index.json"
+          "url": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/json-full/bbr/template/mod-fairsfair-semanticartefact/index.json"
         },
         "slate": {
           "mediatype": "text/html",
-          "url": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/slate-build/bbr/template/mod-fairsfair-bblock/"
+          "url": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/slate-build/bbr/template/mod-fairsfair-semanticartefact/"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/bblock/ogc.bbr.template.mod-fairsfair-bblock"
+          "url": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/bblock/ogc.bbr.template.mod-fairsfair-semanticartefact"
+        }
+      },
+      "@type": [
+        "bblocks:Schema",
+        "skos:Concept",
+        "dcat:Dataset"
+      ]
+    },
+    {
+      "itemIdentifier": "ogc.bbr.template.mod-fairsfair-semanticartefactdistribution",
+      "$schema": "metaschema.yaml",
+      "name": "MOD FAIRsFAIR SemanticArtefactDistribution Profile",
+      "abstract": "This Building Block is the FAIRsFAIR Profile of the SemanticArtefactDistribution from the MOD ontology",
+      "status": "under-development",
+      "dateTimeAddition": "2023-04-05T00:00:00Z",
+      "itemClass": "schema",
+      "register": "ogc-building-block-register",
+      "version": "0.1",
+      "dateOfLastChange": "2024-03-06",
+      "link": "https://github.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/",
+      "sources": [
+        {
+          "title": "MOD Ontology",
+          "link": "https://github.com/fair-IMPACT/mod"
+        }
+      ],
+      "maturity": "mature",
+      "scope": "unstable",
+      "tags": [
+        "templates"
+      ],
+      "shaclRules": {},
+      "ldContext": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-semanticartefactdistribution/context.jsonld",
+      "schema": {
+        "application/yaml": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-semanticartefactdistribution/schema.yaml",
+        "application/json": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-semanticartefactdistribution/schema.json"
+      },
+      "sourceLdContext": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-semanticartefactdistribution/context.jsonld",
+      "sourceSchema": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-semanticartefactdistribution/schema.yaml",
+      "sourceFiles": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-semanticartefactdistribution/",
+      "validationPassed": true,
+      "testOutputs": "https://github.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/blob/master/build/tests/bbr/template/mod-fairsfair-semanticartefactdistribution/",
+      "documentation": {
+        "markdown": {
+          "mediatype": "text/markdown",
+          "url": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/markdown/bbr/template/mod-fairsfair-semanticartefactdistribution/index.md"
+        },
+        "json-full": {
+          "mediatype": "application/json",
+          "url": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/json-full/bbr/template/mod-fairsfair-semanticartefactdistribution/index.json"
+        },
+        "slate": {
+          "mediatype": "text/html",
+          "url": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/slate-build/bbr/template/mod-fairsfair-semanticartefactdistribution/"
+        },
+        "bblocks-viewer": {
+          "mediatype": "text/html",
+          "url": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/bblock/ogc.bbr.template.mod-fairsfair-semanticartefactdistribution"
         }
       },
       "@type": [

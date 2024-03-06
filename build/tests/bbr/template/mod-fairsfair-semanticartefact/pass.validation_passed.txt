@@ -1,0 +1,13 @@
+Validation report for ogc.bbr.template.mod-fairsfair-semanticartefact - MOD FAIRsFAIR SemanticArtefact Profile
+Generated 2024-03-06T17:07:04.100378+00:00
+=== Files ===
+Using pass.json from test resources
+JSON-LD context is present - uplifting
+Output JSON-LD pass.jsonld created
+Output Turtle pass.ttl created
+=== End Files ===
+
+=== JSON Schema ===
+Validation passed
+=== End JSON Schema ===
+

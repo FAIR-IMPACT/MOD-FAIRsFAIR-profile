@@ -1,0 +1,73 @@
+
+
+{
+  "itemIdentifier": "ogc.bbr.template.mod-fairsfair-semanticartefact",
+  "$schema": "metaschema.yaml",
+  "name": "MOD FAIRsFAIR SemanticArtefact Profile",
+  "abstract": "This Building Block is the FAIRsFAIR Profile of the SemanticArtefact from the MOD ontology",
+  "status": "under-development",
+  "dateTimeAddition": "2023-04-05T00:00:00Z",
+  "itemClass": "schema",
+  "register": "ogc-building-block-register",
+  "version": "0.1",
+  "dateOfLastChange": "2024-03-06",
+  "link": "https://github.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/",
+  "sources": [
+    {
+      "title": "MOD Ontology",
+      "link": "https://github.com/fair-IMPACT/mod"
+    }
+  ],
+  "maturity": "mature",
+  "scope": "unstable",
+  "tags": [
+    "templates"
+  ],
+  "shaclRules": {},
+  "ldContext": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-semanticartefact/context.jsonld",
+  "schema": {
+    "application/yaml": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-semanticartefact/schema.yaml",
+    "application/json": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-semanticartefact/schema.json"
+  },
+  "sourceLdContext": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-semanticartefact/context.jsonld",
+  "sourceSchema": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-semanticartefact/schema.yaml",
+  "sourceFiles": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-semanticartefact/",
+  "validationPassed": true,
+  "testOutputs": "https://github.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/blob/master/build/tests/bbr/template/mod-fairsfair-semanticartefact/",
+  "description": "## MOD FAIRsFAIR Semantic Artefact Profile\n\nThis is the representation of the FAIRsFAIR Profile of the SemanticArtefact from the MOD ontology. This document provides a human-readable description of the profile.\n",
+  "examples": [
+    {
+      "title": "Examples of MOD Semantic Artefact description complying with the FAIRsFAIR profile.",
+      "content": "These examples show the minimum feature set as well as a full feature set.",
+      "snippets": [
+        {
+          "language": "json",
+          "ref": "examples/example-basic.json",
+          "schema-ref": "#/$defs/mod:SemanticArtefact",
+          "code": "{\n    \"dct:title\": \"my semantic artefact\",\n    \"dct:license\": \"our license\",\n    \"dct:identifier\": \"mySA\",\n    \"dct:accessRights\": \"all\",\n    \"dct:creator\": \"me\",\n    \"dct:created\": \"then\",\n    \"dct:description\": \"my semantic artefact is ....\"\n}",
+          "url": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/tests/bbr/template/mod-fairsfair-semanticartefact/example_1_1.json"
+        },
+        {
+          "language": "json",
+          "ref": "examples/example-full.json",
+          "schema-ref": "#/$defs/mod:SemanticArtefact",
+          "code": "{\n    \"dcat:keyword\": \"keyword\",\n    \"dcat:landingPage\": \"https://example.org/\",\n    \"dct:accessRights\": \"all\",\n    \"dct:accrualMethod\": \"accrual method\",\n    \"dct:accrualPeriodicity\": \"1 year\",\n    \"dct:contributor\": \"me\",\n    \"dct:created\": \"2024\",\n    \"dct:creator\": \"me\",\n    \"dct:description\": \"my semantic artefact is ....\",\n    \"dct:identifier\": \"mySA\",\n    \"dct:language\": \"English\",\n    \"dct:license\": \"our license\",\n    \"dct:modified\": \"2024\",\n    \"dct:publisher\": \"2024\",\n    \"dct:relation\": \"schema:keywords\",\n    \"dct:subject\": \"semantic artefacts\",\n    \"dct:title\": \"my semantic artefact\",\n    \"dct:type\": \"semantic artefact\",\n    \"mod:acronym\": \"mySA\",\n    \"mod:competencyQuestion\": \"A set of questions made to build an ontology at the design time.\",\n    \"mod:hasFormalityLevel\": \"1\",\n    \"mod:status\": \"prime\",\n    \"mod:URI\": \"https://example.org/\",\n    \"mod:usedEngineeringMethodology\": \"snap\",\n    \"owl:versionIRI\": \"https://w3id.org/modp/2.0\",\n    \"prov:wasGeneratedBy\": \"me\",\n    \"schema:includedInDataCatalog\": \"none\"\n}",
+          "url": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/tests/bbr/template/mod-fairsfair-semanticartefact/example_1_2.json"
+        },
+        {
+          "language": "jsonld",
+          "code": "{\n  \"dcat:keyword\": \"keyword\",\n  \"dcat:landingPage\": \"https://example.org/\",\n  \"dct:accessRights\": \"all\",\n  \"dct:accrualMethod\": \"accrual method\",\n  \"dct:accrualPeriodicity\": \"1 year\",\n  \"dct:contributor\": \"me\",\n  \"dct:created\": \"2024\",\n  \"dct:creator\": \"me\",\n  \"dct:description\": \"my semantic artefact is ....\",\n  \"dct:identifier\": \"mySA\",\n  \"dct:language\": \"English\",\n  \"dct:license\": \"our license\",\n  \"dct:modified\": \"2024\",\n  \"dct:publisher\": \"2024\",\n  \"dct:relation\": \"schema:keywords\",\n  \"dct:subject\": \"semantic artefacts\",\n  \"dct:title\": \"my semantic artefact\",\n  \"dct:type\": \"semantic artefact\",\n  \"mod:acronym\": \"mySA\",\n  \"mod:competencyQuestion\": \"A set of questions made to build an ontology at the design time.\",\n  \"mod:hasFormalityLevel\": \"1\",\n  \"mod:status\": \"prime\",\n  \"mod:URI\": \"https://example.org/\",\n  \"mod:usedEngineeringMethodology\": \"snap\",\n  \"owl:versionIRI\": \"https://w3id.org/modp/2.0\",\n  \"prov:wasGeneratedBy\": \"me\",\n  \"schema:includedInDataCatalog\": \"none\",\n  \"@context\": \"https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-semanticartefact/context.jsonld\"\n}",
+          "url": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/tests/bbr/template/mod-fairsfair-semanticartefact/example_1_2.jsonld"
+        },
+        {
+          "language": "ttl",
+          "code": "@prefix dcat1: <http://www.w3.org/ns/dca#> .\n@prefix dct: <http://purl.org/dc/terms/> .\n@prefix mod: <https://w3id.org/mod#> .\n@prefix owl: <http://www.w3.org/2002/07/owl#> .\n@prefix prov: <http://www.w3.org/ns/prov#> .\n@prefix schema: <https://schema.org/> .\n\n[] dct:accessRights \"all\" ;\n    dct:accrualMethod \"accrual method\" ;\n    dct:accrualPeriodicity \"1 year\" ;\n    dct:contributor \"me\" ;\n    dct:created \"2024\" ;\n    dct:creator \"me\" ;\n    dct:description \"my semantic artefact is ....\" ;\n    dct:identifier \"mySA\" ;\n    dct:language \"English\" ;\n    dct:license \"our license\" ;\n    dct:modified \"2024\" ;\n    dct:publisher \"2024\" ;\n    dct:relation \"schema:keywords\" ;\n    dct:subject \"semantic artefacts\" ;\n    dct:title \"my semantic artefact\" ;\n    dct:type \"semantic artefact\" ;\n    owl:versionIRI \"https://w3id.org/modp/2.0\" ;\n    dcat1:keyword \"keyword\" ;\n    dcat1:landingPage \"https://example.org/\" ;\n    prov:wasGeneratedBy \"me\" ;\n    schema:includedInDataCatalog \"none\" ;\n    mod:URI \"https://example.org/\" ;\n    mod:acronym \"mySA\" ;\n    mod:competencyQuestion \"A set of questions made to build an ontology at the design time.\" ;\n    mod:hasFormalityLevel \"1\" ;\n    mod:status \"prime\" ;\n    mod:usedEngineeringMethodology \"snap\" .\n\n",
+          "url": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/tests/bbr/template/mod-fairsfair-semanticartefact/example_1_2.ttl"
+        }
+      ]
+    }
+  ],
+  "annotatedSchema": "$schema: https://json-schema.org/draft/2020-12/schema\ndescription: Schema for the MOD FAIRsFAIR SemanticArtefact Profile\n$defs:\n  mod:SemanticArtefact:\n    allOf:\n    - type: object\n      properties:\n        dcat:keyword:\n          type: string\n        dcat:landingPage:\n          type: string\n          format: URI\n        dct:accessRights:\n          type: string\n        dct:accrualMethod:\n          type: string\n        dct:accrualPeriodicity:\n          type: string\n        dct:contributor:\n          type: string\n        dct:created:\n          type: string\n        dct:creator:\n          type: string\n        dct:description:\n          type: string\n        dct:identifier:\n          type: string\n        dct:language:\n          type: string\n        dct:license:\n          type: string\n        dct:modified:\n          type: string\n        dct:publisher:\n          type: string\n        dct:relation:\n          type: string\n        dct:subject:\n          type: string\n        dct:title:\n          type: string\n        dct:type:\n          type: string\n        mod:acronym:\n          type: string\n        mod:competencyQuestion:\n          type: string\n        mod:hasFormalityLevel:\n          type: string\n        mod:status:\n          type: string\n        mod:URI:\n          type: string\n          format: URI\n        mod:usedEngineeringMethodology:\n          type: string\n        owl:versionIRI:\n          type: string\n        prov:wasGeneratedBy:\n          type: string\n        schema:includedInDataCatalog:\n          type: string\n      required:\n      - dct:title\n      - dct:license\n      - dct:identifier\n      - dct:accessRights\n      - dct:creator\n      - dct:created\n      - dct:description\nanyOf:\n- $ref: '#/$defs/mod:SemanticArtefact'\nx-jsonld-prefixes:\n  dcat: http://www.w3.org/ns/dca#\n  dct: http://purl.org/dc/terms/\n  mod: https://w3id.org/mod#\n  owl: http://www.w3.org/2002/07/owl#\n  prov: http://www.w3.org/ns/prov#\n  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#\n  rdfs: http://www.w3.org/2000/01/rdf-schema#\n  schema: https://schema.org/\n  xsd: http://www.w3.org/2001/XMLSchema#\n",
+  "gitRepository": "https://github.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile",
+  "gitPath": "_sources/mod-fairsfair-semanticartefact"
+}

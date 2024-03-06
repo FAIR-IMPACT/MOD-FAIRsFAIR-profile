@@ -1,0 +1,19 @@
+path	@id
+/dcat:accessURL	
+/dcat:byteSize	
+/dcat:downloadURL	
+/dct:accessRights	
+/dct:description	
+/dct:modified	
+/dct:title	
+/mod:authorProperty	
+/mod:definitionProperty	
+/mod:hasRepresentationLanguage	
+/mod:hasSyntax	
+/mod:hierarchyProperty	
+/mod:metrics	
+/mod:obsoleteParent	
+/mod:obsoleteProperty	
+/mod:prefLabelProperty	
+/mod:sampleQueries	
+/mod:synonymProperty	

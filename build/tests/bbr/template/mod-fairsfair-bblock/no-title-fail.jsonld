@@ -1,9 +1,0 @@
-{
-  "dct:license": "our license",
-  "dct:identifier": "mySA",
-  "dct:accessRights": "all",
-  "dct:creator": "me",
-  "dct:created": "then",
-  "dct:description": "my semantic artefact is ....",
-  "@context": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-bblock/context.jsonld"
-}

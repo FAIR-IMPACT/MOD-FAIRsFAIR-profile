@@ -1,0 +1,14 @@
+Validation report for ogc.bbr.template.mod-fairsfair-semanticartefact - MOD FAIRsFAIR SemanticArtefact Profile
+Generated 2024-03-06T17:07:04.111420+00:00
+=== Files ===
+Using example_1_2.json from examples
+JSON-LD context is present - uplifting
+Output JSON-LD example_1_2.jsonld created
+Output Turtle example_1_2.ttl created
+=== End Files ===
+
+=== JSON Schema ===
+Using the following JSON Schema: #/$defs/mod:SemanticArtefact
+Validation passed
+=== End JSON Schema ===
+

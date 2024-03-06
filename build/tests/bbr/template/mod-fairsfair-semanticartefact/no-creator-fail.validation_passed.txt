@@ -1,0 +1,64 @@
+Validation report for ogc.bbr.template.mod-fairsfair-semanticartefact - MOD FAIRsFAIR SemanticArtefact Profile
+Generated 2024-03-06T17:07:04.090849+00:00
+=== General ===
+Test was expected to fail and it did.
+=== End General ===
+
+=== Files ===
+Using no-creator-fail.json from test resources
+JSON-LD context is present - uplifting
+Output JSON-LD no-creator-fail.jsonld created
+Output Turtle no-creator-fail.ttl created
+=== End Files ===
+
+=== JSON Schema ===
+
+** Validation error **
+ValidationError: 'dct:creator' is a required property
+
+Failed validating 'required' in schema[0]['allOf'][0]:
+    {'properties': {'dcat:keyword': {'type': 'string'},
+                    'dcat:landingPage': {'format': 'URI', 'type': 'string'},
+                    'dct:accessRights': {'type': 'string'},
+                    'dct:accrualMethod': {'type': 'string'},
+                    'dct:accrualPeriodicity': {'type': 'string'},
+                    'dct:contributor': {'type': 'string'},
+                    'dct:created': {'type': 'string'},
+                    'dct:creator': {'type': 'string'},
+                    'dct:description': {'type': 'string'},
+                    'dct:identifier': {'type': 'string'},
+                    'dct:language': {'type': 'string'},
+                    'dct:license': {'type': 'string'},
+                    'dct:modified': {'type': 'string'},
+                    'dct:publisher': {'type': 'string'},
+                    'dct:relation': {'type': 'string'},
+                    'dct:subject': {'type': 'string'},
+                    'dct:title': {'type': 'string'},
+                    'dct:type': {'type': 'string'},
+                    'mod:URI': {'format': 'URI', 'type': 'string'},
+                    'mod:acronym': {'type': 'string'},
+                    'mod:competencyQuestion': {'type': 'string'},
+                    'mod:hasFormalityLevel': {'type': 'string'},
+                    'mod:status': {'type': 'string'},
+                    'mod:usedEngineeringMethodology': {'type': 'string'},
+                    'owl:versionIRI': {'type': 'string'},
+                    'prov:wasGeneratedBy': {'type': 'string'},
+                    'schema:includedInDataCatalog': {'type': 'string'}},
+     'required': ['dct:title',
+                  'dct:license',
+                  'dct:identifier',
+                  'dct:accessRights',
+                  'dct:creator',
+                  'dct:created',
+                  'dct:description'],
+     'type': 'object'}
+
+On instance:
+    {'dct:accessRights': 'all',
+     'dct:created': 'then',
+     'dct:description': 'my semantic artefact is ....',
+     'dct:identifier': 'mySA',
+     'dct:license': 'our license',
+     'dct:title': 'my semantic artefact'}
+=== End JSON Schema ===
+

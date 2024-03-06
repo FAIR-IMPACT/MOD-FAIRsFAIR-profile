@@ -1,0 +1,770 @@
+{
+  "title": "Validation report for ogc.bbr.template.mod-fairsfair-semanticartefact - MOD FAIRsFAIR SemanticArtefact Profile",
+  "bblockName": "MOD FAIRsFAIR SemanticArtefact Profile",
+  "bblockId": "ogc.bbr.template.mod-fairsfair-semanticartefact",
+  "generated": "2024-03-06T17:07:04.111479+00:00",
+  "result": true,
+  "items": [
+    {
+      "source": {
+        "type": "TEST_RESOURCE",
+        "requireFail": true,
+        "filename": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-semanticartefact/tests/no-accessRights-fail.json",
+        "language": "json"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "GENERAL",
+          "title": "General",
+          "entries": [
+            {
+              "op": "require-fail",
+              "isError": false,
+              "message": "Test was expected to fail and it did."
+            }
+          ]
+        },
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using no-accessRights-fail.json from test resources"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "no-accessRights-fail.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD no-accessRights-fail.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "no-accessRights-fail.ttl",
+              "size": 6,
+              "isError": false,
+              "message": "Output Turtle no-accessRights-fail.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "op": "validation",
+              "result": false,
+              "exception": "ValidationError",
+              "errorMessage": "'dct:accessRights' is a required property",
+              "isError": true,
+              "message": "ValidationError: 'dct:accessRights' is a required property\n\nFailed validating 'required' in schema[0]['allOf'][0]:\n    {'properties': {'dcat:keyword': {'type': 'string'},\n                    'dcat:landingPage': {'format': 'URI', 'type': 'string'},\n                    'dct:accessRights': {'type': 'string'},\n                    'dct:accrualMethod': {'type': 'string'},\n                    'dct:accrualPeriodicity': {'type': 'string'},\n                    'dct:contributor': {'type': 'string'},\n                    'dct:created': {'type': 'string'},\n                    'dct:creator': {'type': 'string'},\n                    'dct:description': {'type': 'string'},\n                    'dct:identifier': {'type': 'string'},\n                    'dct:language': {'type': 'string'},\n                    'dct:license': {'type': 'string'},\n                    'dct:modified': {'type': 'string'},\n                    'dct:publisher': {'type': 'string'},\n                    'dct:relation': {'type': 'string'},\n                    'dct:subject': {'type': 'string'},\n                    'dct:title': {'type': 'string'},\n                    'dct:type': {'type': 'string'},\n                    'mod:URI': {'format': 'URI', 'type': 'string'},\n                    'mod:acronym': {'type': 'string'},\n                    'mod:competencyQuestion': {'type': 'string'},\n                    'mod:hasFormalityLevel': {'type': 'string'},\n                    'mod:status': {'type': 'string'},\n                    'mod:usedEngineeringMethodology': {'type': 'string'},\n                    'owl:versionIRI': {'type': 'string'},\n                    'prov:wasGeneratedBy': {'type': 'string'},\n                    'schema:includedInDataCatalog': {'type': 'string'}},\n     'required': ['dct:title',\n                  'dct:license',\n                  'dct:identifier',\n                  'dct:accessRights',\n                  'dct:creator',\n                  'dct:created',\n                  'dct:description'],\n     'type': 'object'}\n\nOn instance:\n    {'dct:created': 'then',\n     'dct:creator': 'me',\n     'dct:description': 'my semantic artefact is ....',\n     'dct:identifier': 'mySA',\n     'dct:license': 'our license',\n     'dct:title': 'my semantic artefact'}"
+            }
+          ]
+        },
+        {
+          "name": "JSON_LD",
+          "title": "JSON-LD",
+          "entries": []
+        },
+        {
+          "name": "TURTLE",
+          "title": "Turtle",
+          "entries": []
+        },
+        {
+          "name": "SHACL",
+          "title": "SHACL",
+          "entries": []
+        },
+        {
+          "name": "UNKNOWN",
+          "title": "Unknown errors",
+          "entries": []
+        }
+      ]
+    },
+    {
+      "source": {
+        "type": "TEST_RESOURCE",
+        "requireFail": true,
+        "filename": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-semanticartefact/tests/no-created-fail.json",
+        "language": "json"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "GENERAL",
+          "title": "General",
+          "entries": [
+            {
+              "op": "require-fail",
+              "isError": false,
+              "message": "Test was expected to fail and it did."
+            }
+          ]
+        },
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using no-created-fail.json from test resources"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "no-created-fail.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD no-created-fail.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "no-created-fail.ttl",
+              "size": 6,
+              "isError": false,
+              "message": "Output Turtle no-created-fail.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "op": "validation",
+              "result": false,
+              "exception": "ValidationError",
+              "errorMessage": "'dct:created' is a required property",
+              "isError": true,
+              "message": "ValidationError: 'dct:created' is a required property\n\nFailed validating 'required' in schema[0]['allOf'][0]:\n    {'properties': {'dcat:keyword': {'type': 'string'},\n                    'dcat:landingPage': {'format': 'URI', 'type': 'string'},\n                    'dct:accessRights': {'type': 'string'},\n                    'dct:accrualMethod': {'type': 'string'},\n                    'dct:accrualPeriodicity': {'type': 'string'},\n                    'dct:contributor': {'type': 'string'},\n                    'dct:created': {'type': 'string'},\n                    'dct:creator': {'type': 'string'},\n                    'dct:description': {'type': 'string'},\n                    'dct:identifier': {'type': 'string'},\n                    'dct:language': {'type': 'string'},\n                    'dct:license': {'type': 'string'},\n                    'dct:modified': {'type': 'string'},\n                    'dct:publisher': {'type': 'string'},\n                    'dct:relation': {'type': 'string'},\n                    'dct:subject': {'type': 'string'},\n                    'dct:title': {'type': 'string'},\n                    'dct:type': {'type': 'string'},\n                    'mod:URI': {'format': 'URI', 'type': 'string'},\n                    'mod:acronym': {'type': 'string'},\n                    'mod:competencyQuestion': {'type': 'string'},\n                    'mod:hasFormalityLevel': {'type': 'string'},\n                    'mod:status': {'type': 'string'},\n                    'mod:usedEngineeringMethodology': {'type': 'string'},\n                    'owl:versionIRI': {'type': 'string'},\n                    'prov:wasGeneratedBy': {'type': 'string'},\n                    'schema:includedInDataCatalog': {'type': 'string'}},\n     'required': ['dct:title',\n                  'dct:license',\n                  'dct:identifier',\n                  'dct:accessRights',\n                  'dct:creator',\n                  'dct:created',\n                  'dct:description'],\n     'type': 'object'}\n\nOn instance:\n    {'dct:accessRights': 'all',\n     'dct:creator': 'me',\n     'dct:description': 'my semantic artefact is ....',\n     'dct:identifier': 'mySA',\n     'dct:license': 'our license',\n     'dct:title': 'my semantic artefact'}"
+            }
+          ]
+        },
+        {
+          "name": "JSON_LD",
+          "title": "JSON-LD",
+          "entries": []
+        },
+        {
+          "name": "TURTLE",
+          "title": "Turtle",
+          "entries": []
+        },
+        {
+          "name": "SHACL",
+          "title": "SHACL",
+          "entries": []
+        },
+        {
+          "name": "UNKNOWN",
+          "title": "Unknown errors",
+          "entries": []
+        }
+      ]
+    },
+    {
+      "source": {
+        "type": "TEST_RESOURCE",
+        "requireFail": true,
+        "filename": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-semanticartefact/tests/no-creator-fail.json",
+        "language": "json"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "GENERAL",
+          "title": "General",
+          "entries": [
+            {
+              "op": "require-fail",
+              "isError": false,
+              "message": "Test was expected to fail and it did."
+            }
+          ]
+        },
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using no-creator-fail.json from test resources"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "no-creator-fail.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD no-creator-fail.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "no-creator-fail.ttl",
+              "size": 6,
+              "isError": false,
+              "message": "Output Turtle no-creator-fail.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "op": "validation",
+              "result": false,
+              "exception": "ValidationError",
+              "errorMessage": "'dct:creator' is a required property",
+              "isError": true,
+              "message": "ValidationError: 'dct:creator' is a required property\n\nFailed validating 'required' in schema[0]['allOf'][0]:\n    {'properties': {'dcat:keyword': {'type': 'string'},\n                    'dcat:landingPage': {'format': 'URI', 'type': 'string'},\n                    'dct:accessRights': {'type': 'string'},\n                    'dct:accrualMethod': {'type': 'string'},\n                    'dct:accrualPeriodicity': {'type': 'string'},\n                    'dct:contributor': {'type': 'string'},\n                    'dct:created': {'type': 'string'},\n                    'dct:creator': {'type': 'string'},\n                    'dct:description': {'type': 'string'},\n                    'dct:identifier': {'type': 'string'},\n                    'dct:language': {'type': 'string'},\n                    'dct:license': {'type': 'string'},\n                    'dct:modified': {'type': 'string'},\n                    'dct:publisher': {'type': 'string'},\n                    'dct:relation': {'type': 'string'},\n                    'dct:subject': {'type': 'string'},\n                    'dct:title': {'type': 'string'},\n                    'dct:type': {'type': 'string'},\n                    'mod:URI': {'format': 'URI', 'type': 'string'},\n                    'mod:acronym': {'type': 'string'},\n                    'mod:competencyQuestion': {'type': 'string'},\n                    'mod:hasFormalityLevel': {'type': 'string'},\n                    'mod:status': {'type': 'string'},\n                    'mod:usedEngineeringMethodology': {'type': 'string'},\n                    'owl:versionIRI': {'type': 'string'},\n                    'prov:wasGeneratedBy': {'type': 'string'},\n                    'schema:includedInDataCatalog': {'type': 'string'}},\n     'required': ['dct:title',\n                  'dct:license',\n                  'dct:identifier',\n                  'dct:accessRights',\n                  'dct:creator',\n                  'dct:created',\n                  'dct:description'],\n     'type': 'object'}\n\nOn instance:\n    {'dct:accessRights': 'all',\n     'dct:created': 'then',\n     'dct:description': 'my semantic artefact is ....',\n     'dct:identifier': 'mySA',\n     'dct:license': 'our license',\n     'dct:title': 'my semantic artefact'}"
+            }
+          ]
+        },
+        {
+          "name": "JSON_LD",
+          "title": "JSON-LD",
+          "entries": []
+        },
+        {
+          "name": "TURTLE",
+          "title": "Turtle",
+          "entries": []
+        },
+        {
+          "name": "SHACL",
+          "title": "SHACL",
+          "entries": []
+        },
+        {
+          "name": "UNKNOWN",
+          "title": "Unknown errors",
+          "entries": []
+        }
+      ]
+    },
+    {
+      "source": {
+        "type": "TEST_RESOURCE",
+        "requireFail": true,
+        "filename": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-semanticartefact/tests/no-description-fail.json",
+        "language": "json"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "GENERAL",
+          "title": "General",
+          "entries": [
+            {
+              "op": "require-fail",
+              "isError": false,
+              "message": "Test was expected to fail and it did."
+            }
+          ]
+        },
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using no-description-fail.json from test resources"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "no-description-fail.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD no-description-fail.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "no-description-fail.ttl",
+              "size": 6,
+              "isError": false,
+              "message": "Output Turtle no-description-fail.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "op": "validation",
+              "result": false,
+              "exception": "ValidationError",
+              "errorMessage": "'dct:description' is a required property",
+              "isError": true,
+              "message": "ValidationError: 'dct:description' is a required property\n\nFailed validating 'required' in schema[0]['allOf'][0]:\n    {'properties': {'dcat:keyword': {'type': 'string'},\n                    'dcat:landingPage': {'format': 'URI', 'type': 'string'},\n                    'dct:accessRights': {'type': 'string'},\n                    'dct:accrualMethod': {'type': 'string'},\n                    'dct:accrualPeriodicity': {'type': 'string'},\n                    'dct:contributor': {'type': 'string'},\n                    'dct:created': {'type': 'string'},\n                    'dct:creator': {'type': 'string'},\n                    'dct:description': {'type': 'string'},\n                    'dct:identifier': {'type': 'string'},\n                    'dct:language': {'type': 'string'},\n                    'dct:license': {'type': 'string'},\n                    'dct:modified': {'type': 'string'},\n                    'dct:publisher': {'type': 'string'},\n                    'dct:relation': {'type': 'string'},\n                    'dct:subject': {'type': 'string'},\n                    'dct:title': {'type': 'string'},\n                    'dct:type': {'type': 'string'},\n                    'mod:URI': {'format': 'URI', 'type': 'string'},\n                    'mod:acronym': {'type': 'string'},\n                    'mod:competencyQuestion': {'type': 'string'},\n                    'mod:hasFormalityLevel': {'type': 'string'},\n                    'mod:status': {'type': 'string'},\n                    'mod:usedEngineeringMethodology': {'type': 'string'},\n                    'owl:versionIRI': {'type': 'string'},\n                    'prov:wasGeneratedBy': {'type': 'string'},\n                    'schema:includedInDataCatalog': {'type': 'string'}},\n     'required': ['dct:title',\n                  'dct:license',\n                  'dct:identifier',\n                  'dct:accessRights',\n                  'dct:creator',\n                  'dct:created',\n                  'dct:description'],\n     'type': 'object'}\n\nOn instance:\n    {'dct:accessRights': 'all',\n     'dct:created': 'then',\n     'dct:creator': 'me',\n     'dct:identifier': 'mySA',\n     'dct:license': 'our license',\n     'dct:title': 'my semantic artefact'}"
+            }
+          ]
+        },
+        {
+          "name": "JSON_LD",
+          "title": "JSON-LD",
+          "entries": []
+        },
+        {
+          "name": "TURTLE",
+          "title": "Turtle",
+          "entries": []
+        },
+        {
+          "name": "SHACL",
+          "title": "SHACL",
+          "entries": []
+        },
+        {
+          "name": "UNKNOWN",
+          "title": "Unknown errors",
+          "entries": []
+        }
+      ]
+    },
+    {
+      "source": {
+        "type": "TEST_RESOURCE",
+        "requireFail": true,
+        "filename": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-semanticartefact/tests/no-license-fail.json",
+        "language": "json"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "GENERAL",
+          "title": "General",
+          "entries": [
+            {
+              "op": "require-fail",
+              "isError": false,
+              "message": "Test was expected to fail and it did."
+            }
+          ]
+        },
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using no-license-fail.json from test resources"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "no-license-fail.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD no-license-fail.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "no-license-fail.ttl",
+              "size": 6,
+              "isError": false,
+              "message": "Output Turtle no-license-fail.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "op": "validation",
+              "result": false,
+              "exception": "ValidationError",
+              "errorMessage": "'dct:license' is a required property",
+              "isError": true,
+              "message": "ValidationError: 'dct:license' is a required property\n\nFailed validating 'required' in schema[0]['allOf'][0]:\n    {'properties': {'dcat:keyword': {'type': 'string'},\n                    'dcat:landingPage': {'format': 'URI', 'type': 'string'},\n                    'dct:accessRights': {'type': 'string'},\n                    'dct:accrualMethod': {'type': 'string'},\n                    'dct:accrualPeriodicity': {'type': 'string'},\n                    'dct:contributor': {'type': 'string'},\n                    'dct:created': {'type': 'string'},\n                    'dct:creator': {'type': 'string'},\n                    'dct:description': {'type': 'string'},\n                    'dct:identifier': {'type': 'string'},\n                    'dct:language': {'type': 'string'},\n                    'dct:license': {'type': 'string'},\n                    'dct:modified': {'type': 'string'},\n                    'dct:publisher': {'type': 'string'},\n                    'dct:relation': {'type': 'string'},\n                    'dct:subject': {'type': 'string'},\n                    'dct:title': {'type': 'string'},\n                    'dct:type': {'type': 'string'},\n                    'mod:URI': {'format': 'URI', 'type': 'string'},\n                    'mod:acronym': {'type': 'string'},\n                    'mod:competencyQuestion': {'type': 'string'},\n                    'mod:hasFormalityLevel': {'type': 'string'},\n                    'mod:status': {'type': 'string'},\n                    'mod:usedEngineeringMethodology': {'type': 'string'},\n                    'owl:versionIRI': {'type': 'string'},\n                    'prov:wasGeneratedBy': {'type': 'string'},\n                    'schema:includedInDataCatalog': {'type': 'string'}},\n     'required': ['dct:title',\n                  'dct:license',\n                  'dct:identifier',\n                  'dct:accessRights',\n                  'dct:creator',\n                  'dct:created',\n                  'dct:description'],\n     'type': 'object'}\n\nOn instance:\n    {'dct:accessRights': 'all',\n     'dct:created': 'then',\n     'dct:creator': 'me',\n     'dct:description': 'my semantic artefact is ....',\n     'dct:identifier': 'mySA',\n     'dct:title': 'my semantic artefact'}"
+            }
+          ]
+        },
+        {
+          "name": "JSON_LD",
+          "title": "JSON-LD",
+          "entries": []
+        },
+        {
+          "name": "TURTLE",
+          "title": "Turtle",
+          "entries": []
+        },
+        {
+          "name": "SHACL",
+          "title": "SHACL",
+          "entries": []
+        },
+        {
+          "name": "UNKNOWN",
+          "title": "Unknown errors",
+          "entries": []
+        }
+      ]
+    },
+    {
+      "source": {
+        "type": "TEST_RESOURCE",
+        "requireFail": true,
+        "filename": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-semanticartefact/tests/no-title-fail.json",
+        "language": "json"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "GENERAL",
+          "title": "General",
+          "entries": [
+            {
+              "op": "require-fail",
+              "isError": false,
+              "message": "Test was expected to fail and it did."
+            }
+          ]
+        },
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using no-title-fail.json from test resources"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "no-title-fail.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD no-title-fail.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "no-title-fail.ttl",
+              "size": 6,
+              "isError": false,
+              "message": "Output Turtle no-title-fail.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "op": "validation",
+              "result": false,
+              "exception": "ValidationError",
+              "errorMessage": "'dct:title' is a required property",
+              "isError": true,
+              "message": "ValidationError: 'dct:title' is a required property\n\nFailed validating 'required' in schema[0]['allOf'][0]:\n    {'properties': {'dcat:keyword': {'type': 'string'},\n                    'dcat:landingPage': {'format': 'URI', 'type': 'string'},\n                    'dct:accessRights': {'type': 'string'},\n                    'dct:accrualMethod': {'type': 'string'},\n                    'dct:accrualPeriodicity': {'type': 'string'},\n                    'dct:contributor': {'type': 'string'},\n                    'dct:created': {'type': 'string'},\n                    'dct:creator': {'type': 'string'},\n                    'dct:description': {'type': 'string'},\n                    'dct:identifier': {'type': 'string'},\n                    'dct:language': {'type': 'string'},\n                    'dct:license': {'type': 'string'},\n                    'dct:modified': {'type': 'string'},\n                    'dct:publisher': {'type': 'string'},\n                    'dct:relation': {'type': 'string'},\n                    'dct:subject': {'type': 'string'},\n                    'dct:title': {'type': 'string'},\n                    'dct:type': {'type': 'string'},\n                    'mod:URI': {'format': 'URI', 'type': 'string'},\n                    'mod:acronym': {'type': 'string'},\n                    'mod:competencyQuestion': {'type': 'string'},\n                    'mod:hasFormalityLevel': {'type': 'string'},\n                    'mod:status': {'type': 'string'},\n                    'mod:usedEngineeringMethodology': {'type': 'string'},\n                    'owl:versionIRI': {'type': 'string'},\n                    'prov:wasGeneratedBy': {'type': 'string'},\n                    'schema:includedInDataCatalog': {'type': 'string'}},\n     'required': ['dct:title',\n                  'dct:license',\n                  'dct:identifier',\n                  'dct:accessRights',\n                  'dct:creator',\n                  'dct:created',\n                  'dct:description'],\n     'type': 'object'}\n\nOn instance:\n    {'dct:accessRights': 'all',\n     'dct:created': 'then',\n     'dct:creator': 'me',\n     'dct:description': 'my semantic artefact is ....',\n     'dct:identifier': 'mySA',\n     'dct:license': 'our license'}"
+            }
+          ]
+        },
+        {
+          "name": "JSON_LD",
+          "title": "JSON-LD",
+          "entries": []
+        },
+        {
+          "name": "TURTLE",
+          "title": "Turtle",
+          "entries": []
+        },
+        {
+          "name": "SHACL",
+          "title": "SHACL",
+          "entries": []
+        },
+        {
+          "name": "UNKNOWN",
+          "title": "Unknown errors",
+          "entries": []
+        }
+      ]
+    },
+    {
+      "source": {
+        "type": "TEST_RESOURCE",
+        "requireFail": false,
+        "filename": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-semanticartefact/tests/pass.json",
+        "language": "json"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "GENERAL",
+          "title": "General",
+          "entries": []
+        },
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using pass.json from test resources"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "pass.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD pass.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "pass.ttl",
+              "size": 7,
+              "isError": false,
+              "message": "Output Turtle pass.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "op": "validation",
+              "result": true,
+              "isError": false,
+              "message": "Validation passed"
+            }
+          ]
+        },
+        {
+          "name": "JSON_LD",
+          "title": "JSON-LD",
+          "entries": []
+        },
+        {
+          "name": "TURTLE",
+          "title": "Turtle",
+          "entries": []
+        },
+        {
+          "name": "SHACL",
+          "title": "SHACL",
+          "entries": []
+        },
+        {
+          "name": "UNKNOWN",
+          "title": "Unknown errors",
+          "entries": []
+        }
+      ]
+    },
+    {
+      "source": {
+        "type": "EXAMPLE",
+        "requireFail": false,
+        "filename": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/tests/bbr/template/mod-fairsfair-semanticartefact/example_1_1.json",
+        "exampleIndex": 1,
+        "snippetIndex": 1,
+        "language": "json"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "GENERAL",
+          "title": "General",
+          "entries": []
+        },
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using example_1_1.json from examples"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "example_1_1.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD example_1_1.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "example_1_1.ttl",
+              "size": 7,
+              "isError": false,
+              "message": "Output Turtle example_1_1.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "filename": "#/$defs/mod:SemanticArtefact",
+              "isError": false,
+              "message": "Using the following JSON Schema: #/$defs/mod:SemanticArtefact"
+            },
+            {
+              "op": "validation",
+              "result": true,
+              "isError": false,
+              "message": "Validation passed"
+            }
+          ]
+        },
+        {
+          "name": "JSON_LD",
+          "title": "JSON-LD",
+          "entries": []
+        },
+        {
+          "name": "TURTLE",
+          "title": "Turtle",
+          "entries": []
+        },
+        {
+          "name": "SHACL",
+          "title": "SHACL",
+          "entries": []
+        },
+        {
+          "name": "UNKNOWN",
+          "title": "Unknown errors",
+          "entries": []
+        }
+      ]
+    },
+    {
+      "source": {
+        "type": "EXAMPLE",
+        "requireFail": false,
+        "filename": "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/tests/bbr/template/mod-fairsfair-semanticartefact/example_1_2.json",
+        "exampleIndex": 1,
+        "snippetIndex": 2,
+        "language": "json"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "GENERAL",
+          "title": "General",
+          "entries": []
+        },
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using example_1_2.json from examples"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "example_1_2.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD example_1_2.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "example_1_2.ttl",
+              "size": 27,
+              "isError": false,
+              "message": "Output Turtle example_1_2.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "filename": "#/$defs/mod:SemanticArtefact",
+              "isError": false,
+              "message": "Using the following JSON Schema: #/$defs/mod:SemanticArtefact"
+            },
+            {
+              "op": "validation",
+              "result": true,
+              "isError": false,
+              "message": "Validation passed"
+            }
+          ]
+        },
+        {
+          "name": "JSON_LD",
+          "title": "JSON-LD",
+          "entries": []
+        },
+        {
+          "name": "TURTLE",
+          "title": "Turtle",
+          "entries": []
+        },
+        {
+          "name": "SHACL",
+          "title": "SHACL",
+          "entries": []
+        },
+        {
+          "name": "UNKNOWN",
+          "title": "Unknown errors",
+          "entries": []
+        }
+      ]
+    }
+  ],
+  "globalErrors": {},
+  "counts": {
+    "total": 9,
+    "passed": 9,
+    "failed": 0
+  }
+}

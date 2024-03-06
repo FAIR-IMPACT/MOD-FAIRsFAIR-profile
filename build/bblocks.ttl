@@ -7,29 +7,55 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://FAIR-IMPACT.github.io/ogc.bbr.template.mod-fairsfair-bblock> a skos:Concept,
+<https://FAIR-IMPACT.github.io/ogc.bbr.template.mod-fairsfair-semanticartefact> a skos:Concept,
         dcat:Dataset,
         bblocks:Schema ;
-    rdfs:label "MOD-FAIRsFAIR-Profile" ;
-    dct:abstract "This Building Block is the FAIRsFAIR Profile for the MOD ontology" ;
+    rdfs:label "MOD FAIRsFAIR SemanticArtefact Profile" ;
+    dct:abstract "This Building Block is the FAIRsFAIR Profile of the SemanticArtefact from the MOD ontology" ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/json-full/bbr/template/mod-fairsfair-bblock/index.json" ],
+            rdfs:isDefinedBy "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/json-full/bbr/template/mod-fairsfair-semanticartefact/index.json" ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/bblock/ogc.bbr.template.mod-fairsfair-bblock" ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/slate-build/bbr/template/mod-fairsfair-bblock/" ],
+            rdfs:isDefinedBy "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/slate-build/bbr/template/mod-fairsfair-semanticartefact/" ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/markdown/bbr/template/mod-fairsfair-bblock/index.md" ] ;
+            rdfs:isDefinedBy "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/markdown/bbr/template/mod-fairsfair-semanticartefact/index.md" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/bblock/ogc.bbr.template.mod-fairsfair-semanticartefact" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2024-02-29"^^xsd:date ;
-    dct:source <https://example.com/sources/1> ;
+    dct:modified "2024-03-06"^^xsd:date ;
+    dct:source <https://github.com/fair-IMPACT/mod> ;
     skos:inScheme <https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/> ;
     dcat:keyword "templates" ;
-    bblocks:hasJsonLdContext <https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-bblock/context.jsonld> ;
-    bblocks:hasSchema <https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-bblock/schema.json>,
-        <https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-bblock/schema.yaml> ;
-    bblocks:hasSourceJsonLdContext <https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-bblock/context.jsonld> ;
+    bblocks:hasJsonLdContext <https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-semanticartefact/context.jsonld> ;
+    bblocks:hasSchema <https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-semanticartefact/schema.json>,
+        <https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-semanticartefact/schema.yaml> ;
+    bblocks:hasSourceJsonLdContext <https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-semanticartefact/context.jsonld> ;
+    bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> .
+
+<https://FAIR-IMPACT.github.io/ogc.bbr.template.mod-fairsfair-semanticartefactdistribution> a skos:Concept,
+        dcat:Dataset,
+        bblocks:Schema ;
+    rdfs:label "MOD FAIRsFAIR SemanticArtefactDistribution Profile" ;
+    dct:abstract "This Building Block is the FAIRsFAIR Profile of the SemanticArtefactDistribution from the MOD ontology" ;
+    dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/markdown/bbr/template/mod-fairsfair-semanticartefactdistribution/index.md" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/slate-build/bbr/template/mod-fairsfair-semanticartefactdistribution/" ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/json-full/bbr/template/mod-fairsfair-semanticartefactdistribution/index.json" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/bblock/ogc.bbr.template.mod-fairsfair-semanticartefactdistribution" ] ;
+    dct:hasVersion "0.1" ;
+    dct:modified "2024-03-06"^^xsd:date ;
+    dct:source <https://github.com/fair-IMPACT/mod> ;
+    skos:inScheme <https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/> ;
+    dcat:keyword "templates" ;
+    bblocks:hasJsonLdContext <https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-semanticartefactdistribution/context.jsonld> ;
+    bblocks:hasSchema <https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-semanticartefactdistribution/schema.json>,
+        <https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/annotated/bbr/template/mod-fairsfair-semanticartefactdistribution/schema.yaml> ;
+    bblocks:hasSourceJsonLdContext <https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/_sources/mod-fairsfair-semanticartefactdistribution/context.jsonld> ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> .
 
@@ -46,18 +72,18 @@ including [links](https://google.es).
     bblocks:hasValidationReport <https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/tests/report.html> ;
     bblocks:imports <https://opengeospatial.github.io/bblocks/register.json> .
 
-<https://example.com/sources/1> rdfs:label "Sample source document" .
+<https://github.com/fair-IMPACT/mod> rdfs:label "MOD Ontology" .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-02-29T09:57:38.232730"^^xsd:dateTime ;
-    prov:startedAtTime "2024-02-29T09:57:38.175085"^^xsd:dateTime ;
+    prov:endedAtTime "2024-03-06T17:07:04.208709"^^xsd:dateTime ;
+    prov:startedAtTime "2024-03-06T17:07:04.148497"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
-            dct:format "application/yaml" ;
-            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ],
-        [ a prov:Entity ;
             dct:format "application/json" ;
-            dct:hasVersion "git:1aa3d4eef82826b63dc19dd5c9be8fd80cfe132e" ;
-            rdfs:seeAlso <https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/register.json> ] ;
+            dct:hasVersion "git:215e71729f4f1d85623a42954599bd93c1a6cde3" ;
+            rdfs:seeAlso <https://FAIR-IMPACT.github.io/MOD-FAIRsFAIR-profile/build/register.json> ],
+        [ a prov:Entity ;
+            dct:format "application/yaml" ;
+            rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ] ;
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
