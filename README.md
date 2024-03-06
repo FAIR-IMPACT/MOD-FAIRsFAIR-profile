@@ -2,9 +2,9 @@
 
 # MOD-FAIRsFAIR-Profile based on OGC Building Block template
 
-This repository provides a representation of the MOD FAIRsFAIR Profile based on the OGC Building Block template.
+This repository provides a representation of the FAIRsFAIR Profile of the SemanticArtefact and SemanticArtefactDistribution from the MOD ontology based on the OGC Building Block template.
 
-The FAIRsFAIR MOD profile is defined by considering the results in the vote organised within a FAIRsFAIR workshop for the endorsement level mandatory-recommended-optional for each property to describe a semantic artefact, as reported in the publication:
+The FAIRsFAIR Profile of the SemanticArtefact from the MOD ontology is defined by considering the results in the vote organised within a FAIRsFAIR workshop for the endorsement level mandatory-recommended-optional for each property to describe a semantic artefact, as reported in the publication:
 
     - Clement Jonquet, Biswanath Dutta, Luiz O. Bonino da Silva Santos, Robert Pergl, Yann Le Franc. Common Minimum Metadata for FAIR Semantic Artefacts. 2nd Workshop on Ontologies for FAIR and FAIR Ontologies (Onto4FAIR 2023), C. Trojahn; L. O. Bonino da Silva Santos; G. Guizzardi; C. Jonquet, Jul 2023, Sherbrooke, Canada. ⟨[hal-04106533v2](https://hal.science/hal-04106533/)⟩
 
@@ -17,10 +17,9 @@ To create the FAIRsFAIR MOD profile, we considered as required those properties 
 
 The OGC Building Block template produces:
 
-- [MOD-FAIRsFAIR-Profile Documentation](https://fair-impact.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/slate-build/bbr/template/mod-fairsfair-bblock/): documentation about the profile
+- MOD-FAIRsFAIR-Profile documentation for the [SemanticArtefact](https://fair-impact.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/slate-build/bbr/template/mod-fairsfair-semanticartefact/) and [SemanticArtefactDistribution](https://fair-impact.github.io/MOD-FAIRsFAIR-profile/build/generateddocs/slate-build/bbr/template/mod-fairsfair-semanticartefactdistribution/)
 
-- [MOD-FAIRsFAIR-Profile Test reports](https://fair-impact.github.io/MOD-FAIRsFAIR-profile/build/tests/report.html): tests reports for the test files available at https://github.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/tree/master/_sources/mod-fairsfair-bblock/tests
-
+- MOD-FAIRsFAIR-Profile [Test reports](https://fair-impact.github.io/MOD-FAIRsFAIR-profile/build/tests/report.html)
 
 More information on the OGC approach can be found:
 - [Building Blocks](https://blocks.ogc.org/)
