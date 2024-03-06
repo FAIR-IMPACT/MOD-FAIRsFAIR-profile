@@ -1,0 +1,21 @@
+{
+  "$schema": "metaschema.yaml",
+  "name": "MOD FAIRsFAIR SemanticArtefactDistribution Profile",
+  "abstract": "This Building Block is the FAIRsFAIR Profile of the SemanticArtefactDistribution from the MOD ontology",
+  "status": "under-development",
+  "dateTimeAddition": "2023-04-05T00:00:00Z",
+  "itemClass": "schema",
+  "register": "ogc-building-block-register",
+  "version": "0.1",
+  "dateOfLastChange": "2023-04-05",
+  "link": "https://github.com/FAIR-IMPACT/MOD-FAIRsFAIR-profile/",
+  "sources": [
+    {
+      "title": "MOD Ontology",
+      "link": "https://github.com/fair-IMPACT/mod"
+    }
+  ],
+  "maturity": "mature",
+  "scope": "unstable",
+  "tags": ["templates"]
+}
